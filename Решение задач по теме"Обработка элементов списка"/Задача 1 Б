@@ -1,0 +1,6 @@
+from random import * 
+a=[randint(-1000,1000)for i in range(20)] 
+print(a) 
+for i in a: 
+if i%10==0: 
+print(i,end=" ")

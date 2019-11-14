@@ -1,0 +1,12 @@
+from random import * 
+a=[randint(-1000,1000)for i in range(20)] 
+print(a) 
+ft=0 
+print("Двухзначные числа") 
+for i in a:
+    if(i>=10)and(i<=99) or (i>=-99)and(i<=-10):
+        print(i,end=" ") 
+ft=1 
+if ft==0:
+    print("Нет двузначных чисел") 
+ft=0

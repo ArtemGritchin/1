@@ -1,0 +1,10 @@
+from random import * 
+a=[randint(-1000,1000)for i in range(20)] 
+print(a) 
+for i in a: 
+if (i>=100)and(i<=999) or (i>=-999)and(i<=-100): 
+print(i,end=" ") 
+ft=1 
+if ft==0: 
+print("Нет трехзначных чисел") 
+ft=0
